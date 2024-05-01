@@ -267,7 +267,7 @@ int Depth(Isi_Tree T, address Akar) {
             }
             Anak = T[Anak].ps_nb;  // Pindah ke saudara berikutnya
         }
-        return maxDepth + 1;  // Kembalikan depth maksimum + 1 (untuk node saat ini)
+        return maxDepth;  // Kembalikan depth maksimum + 1 (untuk node saat ini)
     }
     return 0;  // Jika node kosong, kembalikan 0
 }
